@@ -14,3 +14,217 @@
   border-collapse: collapse;
   background-color: white;
 }
+/* Home Left Sidebar Css Start*/
+main {
+  float: left;
+  width: 100%;
+  padding: 60px 0;
+}
+.main-section {
+  float: left;
+  width: 100%;
+}
+.main-section-data {
+  float: left;
+  width: 100%;
+}
+.main-left-sidebar {
+  float: left;
+  width: 100%;
+  margin-top: -20px;
+}
+.full-width {
+  float: left;
+  width: 90%;
+  background-color: #fff;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.username-dt {
+  float: left;
+  width: 100%;
+  background-color: #e44d3a;
+  padding-top: 40px;
+}
+.user-data {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.usr-pic {
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+  margin-bottom: -48px;
+}
+.usr-pic > img {
+  float: none;
+  border: 5px solid #fff;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100%;
+  width: 100%;
+}
+.user-profile {
+  float: left;
+  width: 100%;
+}
+.user-specs {
+  float: left;
+  width: 100%;
+  padding: 63px 0 27px 0;
+}
+.user-specs h3 {
+  color: #000000;
+  font-size: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.user-specs span {
+  color: #686868;
+  font-size: 14px;
+}
+
+.user-fw-status {
+  float: left;
+  width: 100%;
+}
+.user-fw-status li {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  padding: 15px 0;
+}
+.user-fw-status li:last-child {
+  border-bottom: 0;
+}
+.user-fw-status li:nth-child(1),
+.user-fw-status li:nth-child(2) {
+  border-bottom: 0;
+}
+.user-fw-status li h4 {
+  color: #686868;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.user-fw-status span {
+  color: #000000;
+  font-size: 20px;
+}
+.user-fw-status li a {
+  color: #e44d3a;
+  font-size: 14px;
+  font-weight: 600;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+/* Home Left Sidebar Css End*/
+/* ============= Suggestions ============ */
+
+.sd-title {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+}
+.sd-title h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  float: left;
+}
+.sd-title i {
+  float: right;
+  color: #b7b7b7;
+  font-size: 30px;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+}
+.suggestions-list {
+  float: left;
+  width: 100%;
+  padding: 13px 0 30px 0;
+}
+.suggestion-usd {
+  float: right;
+  width: 100%;
+  padding: 15px 20px;
+}
+.suggestion-usd img {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+.suggestions {
+  border: 1px solid #e5e5e5;
+}
+.sug-image {
+  float: left;
+}
+.sgt-text {
+  float: left;
+  padding-left: 10px;
+}
+.sgt-text h4 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.sgt-text span {
+  color: #686868;
+  font-size: 14px;
+}
+.suggestion-usd > span {
+  float: right;
+  margin-top: 4px;
+  position: relative;
+}
+.suggestion-usd > span i {
+  color: #b2b2b2;
+
+  text-align: center;
+
+  cursor: pointer;
+}
+
+.plus-button:hover {
+  background-color: #e44d3a;
+  color: #fff;
+}
+.view-more {
+  float: left;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+}
+.view-more > a {
+  color: #e44d3a;
+  font-size: 14px;
+  font-weight: 700;
+}
+.view-more > a:hover {
+  color: #e44d3a;
+}
