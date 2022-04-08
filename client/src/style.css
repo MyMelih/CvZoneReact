@@ -1,0 +1,16 @@
+@media only screen and (max-width: 990px) {
+  .search-box {
+    padding-top: 10px;
+  }
+}
+#search-button {
+  margin-right: 0;
+  top: 0;
+  right: 0;
+  color: gray;
+  width: 38px;
+  height: 100%;
+  border: none;
+  border-collapse: collapse;
+  background-color: white;
+}
