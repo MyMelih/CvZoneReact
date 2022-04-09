@@ -228,3 +228,506 @@ ul {
 .view-more > a:hover {
   color: #e44d3a;
 }
+/* =============== right-sidebar ============= */
+
+.right-sidebar {
+  margin-top: 5%;
+  float: left;
+  width: 100%;
+}
+.widget {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.24);
+  -ms-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.24);
+  -o-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.24);
+  box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.24);
+}
+.widget-about {
+  text-align: center;
+}
+.widget-about img {
+  float: none;
+  padding-top: 20px;
+}
+.widget-about h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.widget-about span {
+  color: #686868;
+  font-size: 14px;
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+}
+.sign_link {
+  float: left;
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  padding: 18px 0 15px 0;
+}
+.sign_link h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+.sign_link h3 a {
+  color: #000;
+}
+.sign_link > a {
+  display: inline-block;
+  color: #e44d3a;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sign_link > a:hover {
+  color: #e44d3a;
+}
+
+/* ============== Widget Jobs ============ */
+
+.jobs-list {
+  float: left;
+  width: 100%;
+  padding: 20px 20px;
+}
+.job-info {
+  float: left;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.job-info:last-child {
+  margin-bottom: 0;
+}
+.job-details {
+  float: left;
+  width: 170px;
+}
+.job-details h3 {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.job-details p {
+  color: #686868;
+  font-size: 14px;
+  line-height: 20px;
+}
+.hr-rate {
+  float: right;
+  width: 40px;
+}
+.hr-rate span {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 600;
+  float: right;
+}
+.title-icon {
+  float: right;
+  color: #b2b2b2;
+}
+/* ============ post-topbar =========== */
+
+.post-topbar {
+  margin-top: 4%;
+  float: left;
+  width: 100%;
+  padding: 23px 20px;
+  background-color: #fff;
+  border-top: 4px solid #e44d3a;
+  border-left: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.24);
+  -ms-box-shadow: 0 0 1px rgba(0, 0, 0, 0.24);
+  -o-box-shadow: 0 0 1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.24);
+  margin-bottom: 20px;
+}
+.user-picy {
+  float: left;
+  width: 50px;
+}
+.user-picy img {
+  width: 100%;
+  object-fit: cover;
+}
+.post-st {
+  float: right;
+  margin-top: 5px;
+}
+.post-st ul li {
+  display: inline-block;
+  margin-right: 6px;
+}
+.post-st ul li:last-child {
+  margin-right: 0;
+}
+.post-st ul li a {
+  color: #b2b2b2;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #e5e5e5;
+  height: 40px;
+  padding: 0 15px;
+  line-height: 40px;
+  font-weight: 500;
+}
+.post-st ul li a:hover,
+.post-st ul li a.active {
+  background-color: #e44d3a;
+  color: #fff;
+}
+
+/* ================ posts-section ================== */
+
+.posts-section {
+  float: left;
+  width: 100%;
+}
+.post-bar {
+  float: left;
+  width: 100%;
+  background-color: #fff;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+}
+.post_topbar {
+  float: left;
+  width: 100%;
+  position: relative;
+  padding: 20px 20px 15px 20px;
+}
+.usy-dt {
+  float: left;
+}
+.usy-dt img {
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  border-radius: 100px;
+}
+.ed-opts {
+  float: right;
+  position: relative;
+  top: 7px;
+}
+.ed-opts > a {
+  color: #b2b2b2;
+  font-size: 30px;
+  float: right;
+  position: relative;
+  left: 13px;
+}
+.ed-options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 130px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+  -ms-box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.28);
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 0;
+}
+.ed-options.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+}
+.ed-options li {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.ed-options li:last-child {
+  margin-bottom: 0;
+}
+.ed-options li a {
+  color: #686868;
+  font-size: 14px;
+  font-weight: 600;
+}
+.ed-opts > a:hover {
+  color: #e44d3a;
+}
+.usy-name {
+  float: left;
+  margin-left: 10px;
+}
+.usy-name h3 {
+  color: #000000;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 6px;
+  margin-top: 2px;
+}
+.usy-name span {
+  color: #b2b2b2;
+  font-size: 14px;
+}
+.usy-name img {
+  margin-top: 2px;
+  margin-right: 6px;
+}
+.post_topbar i {
+  /*	position: absolute;
+	top: 20px;
+	right: 5px;
+	color: #b2b2b2;
+	font-size: 30px;
+*/
+}
+.epi-sec {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+.descp {
+  float: left;
+  margin-top: 3px;
+}
+.descp li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.descp li span {
+  color: #b2b2b2;
+  font-size: 14px;
+  float: left;
+}
+.descp li img {
+  margin-right: 5px;
+}
+.bk-links {
+  float: right;
+  margin-left: 5px;
+  background-color: ;
+}
+.bk-links li {
+  display: inline-block;
+  margin-right: 12px;
+}
+.bk-links li:last-child {
+  margin-right: 50px;
+}
+.bk-links li i {
+  color: #fff;
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  background-color: #53d690;
+  text-align: center;
+  line-height: 30px;
+}
+.bk-links li i.la-envelope {
+  background-color: #e44d3a;
+}
+.bid_now {
+  color: #fff;
+  background-color: #51a5fb;
+  text-transform: capitalize;
+  display: inline-block;
+  height: 30px;
+  padding: 0 10px;
+  line-height: 30px;
+  position: relative;
+  top: -3px;
+}
+.bid_now:hover {
+  color: #fff;
+}
+
+/* ============== job_descp ============ */
+
+.job_descp {
+  float: left;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.job_descp h3 {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.job-dt {
+  float: left;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.job-dt ol,
+ul {
+  padding-left: 0 !important;
+}
+.job-dt li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.job-dt li a {
+  color: #fff;
+  background-color: #53d690;
+  text-transform: capitalize;
+  padding: 5px 13px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 0px !important;
+}
+.job-dt li span {
+  color: #000000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.job_descp > p {
+  color: #686868;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.job_descp > p a {
+  color: #e44d3a;
+  font-weight: 600;
+}
+
+/* ============= skill-tags =========== */
+
+.skill-tags {
+  float: left;
+  width: 100%;
+}
+.skill-tags li {
+  display: inline-block;
+  margin-right: 6px;
+  margin-bottom: 10px;
+}
+.skill-tags li a {
+  display: inline-block;
+  color: #b2b2b2;
+  font-size: 14px;
+  background-color: #e5e5e5;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  padding: 7px 15px;
+  font-weight: 600;
+}
+
+/* ========== job-status-bar ========== */
+
+.job-status-bar {
+  float: left;
+  width: 100%;
+  padding: 15px 20px;
+}
+.like-com {
+  float: left;
+}
+.like-com li {
+  display: inline-block;
+  margin-right: 15px;
+}
+.like-com li a {
+  color: #b2b2b2;
+  font-size: 14px;
+  float: left;
+  margin-top: 6px;
+  margin-right: 5px;
+}
+.like-com li a:hover {
+  color: #e44d3a;
+}
+.like-com li a.active {
+  color: #e44d3a;
+}
+.like-com li a i {
+  margin-right: 2px;
+  font-size: 17px;
+  position: relative;
+  top: 2px;
+}
+.like-com li span {
+  color: #ffffff;
+  font-size: 13px;
+  width: 30px;
+  height: 30px;
+  background-color: #e44d3a;
+  line-height: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  font-weight: 600;
+  margin-left: -25px;
+}
+.like-com li .com {
+  position: relative;
+  top: -5px;
+}
+.like-com li .com img {
+  margin-right: 10px;
+}
+
+.job-status-bar > a {
+  float: right;
+  color: #b2b2b2;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.job-status-bar > a i {
+  font-size: 20px;
+  margin-right: 7px;
+  position: relative;
+  top: 3px;
+}
+a {
+  color: #007bff;
+  text-decoration: none !important;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+.esc-time {
+  margin-right: 6px;
+}
+.icon-back {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 4px;
+}
