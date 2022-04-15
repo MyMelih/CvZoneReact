@@ -20,6 +20,7 @@ import {
 } from "react-icons/ai";
 import { BsFillPeopleFill, BsFillHandbagFill } from "react-icons/bs";
 import "../style.css";
+import { LinkContainer } from "react-router-bootstrap";
 
 const Header = () => {
   return (
@@ -47,75 +48,81 @@ const Header = () => {
         </Navbar.Collapse>
         <Navbar.Collapse className="justify-content-end">
           <Nav>
-            <Nav.Link href="#action1">
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                }}
-              >
-                <AiOutlineHome />
-                AnaSayfa
-              </div>
-            </Nav.Link>
-
-            <Nav.Link href="#action2">
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                }}
-              >
-                <AiOutlineBank />
-                Firmalar
-              </div>
-            </Nav.Link>
-
-            <Nav.Link href="#action2">
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                }}
-              >
-                <AiOutlineProfile />
-                Projeler
-              </div>
-            </Nav.Link>
-
-            <Nav.Link href="#action2">
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                }}
-              >
-                <BsFillPeopleFill />
-                Kullanıcılar
-              </div>
-            </Nav.Link>
-
-            <Nav.Link href="#action2">
-              <div
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  flexDirection: "column",
-                }}
-              >
-                <BsFillHandbagFill />
-                İş İlanları
-              </div>
-            </Nav.Link>
+            <LinkContainer to="/">
+              <Nav.Link href="#action1">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <AiOutlineHome />
+                  AnaSayfa
+                </div>
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/companies">
+              <Nav.Link href="#action2">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <AiOutlineBank />
+                  Firmalar
+                </div>
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/projects">
+              <Nav.Link href="#action2">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <AiOutlineProfile />
+                  Projeler
+                </div>
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/user-profile">
+              <Nav.Link href="#action2">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <BsFillPeopleFill />
+                  Profilim
+                </div>
+              </Nav.Link>
+            </LinkContainer>
+            <LinkContainer to="/jobs">
+              <Nav.Link href="#action2">
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    flexDirection: "column",
+                  }}
+                >
+                  <BsFillHandbagFill />
+                  İş İlanları
+                </div>
+              </Nav.Link>
+            </LinkContainer>
             <div
               style={{
                 display: "flex",
